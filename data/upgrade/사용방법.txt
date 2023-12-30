@@ -1,0 +1,4 @@
+1. 이 프로그램은 sp를 업데이트하는 데에 쓰이는 코드입니다.
+컴파일 방법:
+아래 명령어를 vs개발자 명령줄에서 실행하되, 적절한 경로로 수정하신 후 입력하시기 바랍니다.
+cl e:\test.c /I "g:\b3\vcpkg\installed\x64-windows-static\include" /Fe"E:\test.exe" /link /LIBPATH:"g:\b3\vcpkg\installed\x64-windows-static\lib" libcurl.lib Ws2_32.lib Wldap32.lib Crypt32.lib Normaliz.lib Advapi32.lib zlib.lib
